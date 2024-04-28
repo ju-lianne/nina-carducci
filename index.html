@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Nina Carducci</title>
-	<meta name="description" content ="Site de photographie de Nina Carducci">
+	<title>Nina Carducci - Photographe à Bordeaux</title>
+	<meta name="description" content ="Vente de services de photographie à Bordeaux (mariage, portrait, entreprise, concert...).">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
@@ -146,11 +146,22 @@
 				<input type="submit" value="Envoyer">
 			</form>
 		</div>
-		<div class="picture right">
-			<img alt="" src="./assets/images/camera.webp">
+		<div class="picture right contact__picture">
+			<img alt="Appareil photo" src="./assets/images/camera.webp">
 		</div>
 	</div>
 </section>
+<footer>
+	<div itemscope itemtype=”http://schema.org/Photograph”>
+		<span itemprop=”name”>Photographe</span>
+		
+		<div itemprop=”address” itemscope itemtype=”http://schema.org/PostalAddress”>
+		<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span>
+		<span itemprop=”addressLocality”>Bordeaux</span>,
+		<span itemprop=”addressRegion”> Bordeaux</span>
+		<span itemprop=”postalCode”>33200</span>
+		</div>
+</footer>
 
 <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
