@@ -143,7 +143,14 @@ body {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	font-size: 24px;
+	font-size: 1.5rem;
+	cursor:pointer;top:50%;background:white;
+}
+.mg-prev {
+	padding-left:20px;
+}
+.mg-next {
+	padding-right:20px;
 }
 
 .quote {
