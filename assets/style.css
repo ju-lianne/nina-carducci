@@ -8,6 +8,10 @@ body {
 	overflow: scroll;
 }
 
+.bold {
+	font-weight: bolder;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -110,6 +114,9 @@ body {
 }
 .nav-pills .nav-link {
 	color: #000
+}
+.nav-link, .gallery img {
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -389,6 +396,3 @@ input[type="submit"] {
 	padding: 0.5rem;
 }
 
-.bold {
-	font-weight: bolder;
-}
