@@ -5,7 +5,9 @@ body {
 * {
 	font-family: 'Inter';
 	font-style: normal;
+	overflow: scroll;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -251,9 +253,7 @@ form textarea {
 }
 input[type="submit"] {
 	margin: auto;
-	border-radius: 10px;
 	text-align: center;
-	width: 8rem;
 	background-color: #65602c;
 	color: #fff;
 	border: none;
@@ -303,12 +303,11 @@ input[type="submit"] {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
-		margin: 2em 0
+		margin: 2em 0;
 	}
 	.service__description{
 		margin-bottom: 1em;
 	}
-
 	#services .container::before{
 		width: 30%;
 		height: 100%;
@@ -357,9 +356,11 @@ input[type="submit"] {
 	#services .container {
 		align-items: center;
 	}
+
 	.service {
 		max-width: 90%;
 	}
+
 	#about, #contact {
 		padding-inline: 2em;
 		padding-block: 2em;
@@ -373,12 +374,21 @@ input[type="submit"] {
 	}
 }
 #main-footer {
-	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	background-color: #fff;
+	padding: 1.5rem 0 1.5rem 0;
 }
-.main-footer__container {
-	display: flex;
+
+#main-footer > p {
+	max-width: 33%;
+	padding: 0.5rem;
+}
+
+.bold {
+	font-weight: bolder;
 }
