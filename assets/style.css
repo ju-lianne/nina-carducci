@@ -11,11 +11,6 @@ body {
 	font-weight: bolder;
 }
 
-
-.bold {
-	font-weight: bolder;
-}
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -122,9 +117,6 @@ body {
 .nav-link, .gallery img {
 	cursor: pointer;
 }
-.nav-link, .gallery img {
-	cursor: pointer;
-}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -144,20 +136,20 @@ body {
 	padding: .5em;
 }
 .mg-prev, .mg-next {
-	width: 20px;
+	width: 8px;
 	height: 30px;
 	border-radius: 00%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	font-size: 1.5rem;
-	cursor:pointer;top:50%;background:white;
+	cursor:pointer;position:absolute;top:50%;background:white;
 }
 .mg-prev {
-	padding-left:20px;
+	left:4px;
 }
 .mg-next {
-	padding-right:20px;
+	right:4px;
 }
 
 .quote {
@@ -326,7 +318,6 @@ input[type="submit"] {
 		max-width: 100%;
 		height: auto;
 		margin: 2em 0;
-		margin: 2em 0;
 	}
 	.service__description{
 		margin-bottom: 1em;
@@ -380,7 +371,6 @@ input[type="submit"] {
 		align-items: center;
 	}
 
-
 	.service {
 		max-width: 90%;
 	}
@@ -401,9 +391,6 @@ input[type="submit"] {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -414,13 +401,4 @@ input[type="submit"] {
 #main-footer > p {
 	max-width: 33%;
 	padding: 0.5rem;
-	padding: 1.5rem 0 1.5rem 0;
 }
-
-#main-footer > p {
-	max-width: 33%;
-	padding: 0.5rem;
-}
-
-
-
