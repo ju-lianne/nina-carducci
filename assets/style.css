@@ -214,7 +214,7 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .service__price--euros {
