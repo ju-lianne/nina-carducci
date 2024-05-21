@@ -18,7 +18,7 @@
 		  "@context": "https://schema.org",
 		  "@type": "Service",
 		  "provider": {
-			"@type": "Photographer",
+			"@type": "Person",
 			"name": "Nina Carducci",
 			"address": {
 			  "@type": "PostalAddress",
@@ -33,8 +33,7 @@
 		  },
 		  "serviceType": "Photography Service",
 		  "areaServed": "Bordeaux, Paris",
-		  "description": "Service de photographie professionnelle à Bordeaux et Paris. Capturez vos moments les plus précieux et conservez un souvenir impérissable. Nous proposons des séances de photo en extérieur, en studio, pour des événements, des portraits, des mariages, des concerts et bien plus encore.",
-		  "priceRange": "$"
+		  "description": "Service de photographie professionnelle à Bordeaux et Paris. Capturez vos moments les plus précieux et conservez un souvenir impérissable. Nous proposons des séances de photo en extérieur, en studio, pour des événements, des portraits, des mariages, des concerts et bien plus encore."
 		}
 	</script>
 	<!-- Balises meta pour Open Graph -->
@@ -189,20 +188,21 @@
 		</div>
 	</div>
 </section>
-<footer id="main-footer">
-			<p itemscope>
-				<span class="bold" itemprop=”name”>Nina Carducci</span><br>
-				<span itemprop=”jobTitle”>Photographe professionnelle</span>
-			</p>
-			<p itemprop=”address” itemscope>
-				<span itemprop=”streetAddress”>68 avenue Alsace-Lorraine</span><br>
-				<span class="bold" itemprop=”addressLocality”>Bordeaux</span>
-				<span class="bold" itemprop=”postalCode”>33200</span>
-			</p>
-			<p itemscope>
-				<span>Tél. - </span>
-				<span class="bold" itemprop="telephone">05 56 67 78 89</span>
-			</p>
+<footer itemscope itemtype="http://schema.org/Person" id="main-footer">
+	<p >
+		<span class="bold" itemprop="name">Nina Carducci</span><br>
+		<span itemprop="jobTitle">Photographe professionnelle</span>
+	</p>
+	<p itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
+		<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span><br>
+		<span class="bold" itemprop="addressLocality">Bordeaux</span>
+		<span class="bold" itemprop="postalCode">33200</span>
+	</p>
+	<p >
+		<span>Tél. - </span>
+		<span class="bold" itemprop="telephone">05 56 67 78 89</span>
+	</p>
+	
 </footer>
 
 <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
